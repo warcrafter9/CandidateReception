@@ -12,7 +12,7 @@ import java.net.ServerSocket;
 import java.net.Socket;
 import java.sql.SQLException;
 
-public class Server {
+public class ServerApp {
     public static void main(String[] args) throws IOException {
         ServerSocket serverSocket = new ServerSocket(8000);
         DataBaseWorker dataBaseWorker = new DataBaseWorker("jdbc:h2:~/test", "sa", "");
