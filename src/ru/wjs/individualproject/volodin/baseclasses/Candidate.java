@@ -2,6 +2,7 @@ package ru.wjs.individualproject.volodin.baseclasses;
 
 public class Candidate {
     private int id;
+
     private final String surname;
     private final String name;
     private final String patronymic;
